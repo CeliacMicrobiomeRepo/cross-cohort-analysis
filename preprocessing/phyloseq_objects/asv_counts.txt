@@ -1,0 +1,18 @@
+Number of ASVs Per Group:
+
+Stool Prospective:
+ - # ASVs before filtering = 2147
+ - # ASVs after filtering = 203
+
+Stool Active:
+ - # ASVs before filtering = 7890
+ - # ASVs after filtering = 509
+
+Stool Treated:
+ - # ASVs before filtering = 4371
+ - # ASVs after filtering = 439
+
+Duodenal Active:
+ - # ASVs before filtering = 5469
+ - # ASVs after filtering = 457
+

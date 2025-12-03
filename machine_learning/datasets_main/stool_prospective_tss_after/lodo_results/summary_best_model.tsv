@@ -1,0 +1,1 @@
+0.6086	XGBOOST	{'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.1, 'n_estimators': 100}

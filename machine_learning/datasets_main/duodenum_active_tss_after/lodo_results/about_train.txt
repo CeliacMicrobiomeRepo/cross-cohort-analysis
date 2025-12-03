@@ -1,0 +1,52 @@
+Training Summary
+Date and Time: 2025-08-26 13:31:12
+
+Input Files:
+  - Feature Matrix: /home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_tss_after/sample_asv_abundances.tsv
+  - Labels File: /home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_tss_after/sample_labels.tsv
+
+Training Configuration:
+  - Cross-validation Method: Leave-One-Dataset-Out
+  - Number of Replicates: 5
+
+Hyperparameter Grids:
+  MLP:
+    - hidden_layer_sizes: [(64,), (256,), (128, 64)]
+    - dropout: [None, 0.25]
+    - learning_rate_init: [0.01, 0.001]
+    - learning_rate: ['adaptive']
+    - max_iter: [2000]
+    - batch_size: ['auto']
+
+  XGBOOST:
+    - n_estimators: [100, 500]
+    - learning_rate: [0.1, 0.01]
+    - gamma: [0, 0.5]
+    - colsample_bytree: [0.8, 1]
+
+  SVM:
+    - C: [0.1, 1]
+    - kernel: ['linear', 'rbf', 'sigmoid']
+    - gamma: ['scale', 0.1, 1]
+
+  LR:
+    - C: [0.01, 0.1, 1]
+    - penalty: ['l1', 'l2']
+    - solver: ['lbfgs', 'saga', 'liblinear', 'newton-cg']
+    - max_iter: [10000]
+
+  RF:
+    - n_estimators: [200, 750]
+    - max_depth: [15, 25]
+    - max_features: ['sqrt', 'log2']
+
+Models Evaluated:
+  - MLP
+  - XGBOOST
+  - SVM
+  - LR
+  - RF
+
+Notes:
+  - This training session uses randomized replicates with reshuffled data.
+  - Best model and hyperparameters are selected based on mean AUC across replicates.

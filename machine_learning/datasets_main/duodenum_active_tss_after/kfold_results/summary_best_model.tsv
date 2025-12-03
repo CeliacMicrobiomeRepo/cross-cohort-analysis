@@ -1,0 +1,1 @@
+0.7438	LR	{'C': 1, 'max_iter': 10000, 'penalty': 'l2', 'solver': 'saga'}

@@ -1,0 +1,1 @@
+0.5994	MLP	{'batch_size': 'auto', 'dropout': 0.25, 'hidden_layer_sizes': (128, 64), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2000}

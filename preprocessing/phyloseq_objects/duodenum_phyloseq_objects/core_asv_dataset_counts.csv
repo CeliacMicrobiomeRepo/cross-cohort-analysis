@@ -1,0 +1,7 @@
+"set","num_asvs_before_filter","num_asvs_after_filter"
+"16S_102_Bodkhe",1079,294
+"16S_80_Garcia",691,287
+"16S_119_Salamon",882,222
+"16S_102_Bodkhe&&16S_80_Garcia",183,148
+"16S_102_Bodkhe&&16S_119_Salamon",210,155
+"16S_80_Garcia&&16S_119_Salamon",190,155

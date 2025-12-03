@@ -1,0 +1,20 @@
+Model: lr
+Best Hyperparameters: {'C': 1, 'max_iter': 10000, 'penalty': 'l2', 'solver': 'newton-cg'}
+Mean AUC across replicates: 0.7844
+
+Model: mlp
+Best Hyperparameters: {'batch_size': 'auto', 'dropout': 0.25, 'hidden_layer_sizes': (128, 64), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2000}
+Mean AUC across replicates: 0.8831
+
+Model: rf
+Best Hyperparameters: {'max_depth': 25, 'max_features': 'sqrt', 'n_estimators': 750}
+Mean AUC across replicates: 0.9133
+
+Model: svm
+Best Hyperparameters: {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+Mean AUC across replicates: 0.8413
+
+Model: xgboost
+Best Hyperparameters: {'colsample_bytree': 1, 'gamma': 0, 'learning_rate': 0.1, 'n_estimators': 500}
+Mean AUC across replicates: 0.9067
+

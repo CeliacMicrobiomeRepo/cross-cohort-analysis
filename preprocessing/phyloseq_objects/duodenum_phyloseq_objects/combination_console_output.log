@@ -1,0 +1,155 @@
+
+--- Checking Input Files ---
+Checking for seqs.fna files:
+                                                                                                          path
+1       /home/haig/Repos/celiac-repository/16S_datasets/16S_49_Turjeman/v4_truncation_duodenal_active/seqs.fna
+2        /home/haig/Repos/celiac-repository/16S_datasets/16S_102_Bodkhe/v4_truncation_duodenal_active/seqs.fna
+3         /home/haig/Repos/celiac-repository/16S_datasets/16S_80_Garcia/v4_truncation_duodenal_active/seqs.fna
+4        /home/haig/Repos/celiac-repository/16S_datasets/16S_68_Girdhar/v4_truncation_duodenal_active/seqs.fna
+5         /home/haig/Repos/celiac-repository/16S_datasets/16S_136_Nobel/v4_truncation_duodenal_active/seqs.fna
+6            /home/haig/Repos/celiac-repository/16S_datasets/16S_60_Shi/v4_truncation_duodenal_active/seqs.fna
+7  /home/haig/Repos/celiac-repository/16S_datasets/16S_96_Quagliariello/v4_truncation_duodenal_active/seqs.fna
+8         /home/haig/Repos/celiac-repository/16S_datasets/16S_20_Rawson/v4_truncation_duodenal_active/seqs.fna
+9    /home/haig/Repos/celiac-repository/16S_datasets/16S_1211_Milletich/v4_truncation_duodenal_active/seqs.fna
+10      /home/haig/Repos/celiac-repository/16S_datasets/16S_119_Salamon/v4_truncation_duodenal_active/seqs.fna
+   exists
+1   FALSE
+2    TRUE
+3    TRUE
+4   FALSE
+5   FALSE
+6   FALSE
+7   FALSE
+8   FALSE
+9   FALSE
+10   TRUE
+
+Checking for asv_abundances_transposed.tsv files:
+                                                                                                                               path
+1       /home/haig/Repos/celiac-repository/16S_datasets/16S_49_Turjeman/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+2        /home/haig/Repos/celiac-repository/16S_datasets/16S_102_Bodkhe/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+3         /home/haig/Repos/celiac-repository/16S_datasets/16S_80_Garcia/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+4        /home/haig/Repos/celiac-repository/16S_datasets/16S_68_Girdhar/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+5         /home/haig/Repos/celiac-repository/16S_datasets/16S_136_Nobel/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+6            /home/haig/Repos/celiac-repository/16S_datasets/16S_60_Shi/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+7  /home/haig/Repos/celiac-repository/16S_datasets/16S_96_Quagliariello/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+8         /home/haig/Repos/celiac-repository/16S_datasets/16S_20_Rawson/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+9    /home/haig/Repos/celiac-repository/16S_datasets/16S_1211_Milletich/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+10      /home/haig/Repos/celiac-repository/16S_datasets/16S_119_Salamon/v4_truncation_duodenal_active/asv_abundances_transposed.tsv
+   exists
+1   FALSE
+2    TRUE
+3    TRUE
+4   FALSE
+5   FALSE
+6   FALSE
+7   FALSE
+8   FALSE
+9   FALSE
+10   TRUE
+
+Converting column 'Paired_Reads' to logical.
+Converting column 'Diagnosed_Celiac' to logical.
+Converting column 'Gluten_Free_Diet' to logical.
+Converting column 'Will_Develop_Celiac' to logical.
+Converting column 'Short_term_Gluten_Challenge' to logical.
+Converting column 'NCGS' to logical.
+Converting column 'Other_Autoimmune' to logical.
+Converting column 'Hookworm' to logical.
+Converting column 'Possible_Celiac' to logical.
+Converting column 'Any_Significant_Factor' to logical.
+
+
+--- Sample Filtering ---
+Initial number of samples: 3245 
+Samples after excluding rows where 'Dataset_ID' is one of [-, , NA]: 3245 (removed 0)
+Samples after excluding rows where 'Sequencing_Type' is one of [shotgun, , NA]: 3245 (removed 0)
+Samples after excluding rows where 'Any_Significant_Factor' is one of [-, , NA, TRUE]: 3088 (removed 157)
+
+Samples after applying filter rule '(Diagnosed_Celiac == TRUE & Gluten_Free_Diet == FALSE) | (Diagnosed_Celiac == FALSE & Gluten_Free_Diet == FALSE)': 1218 (removed 1870)
+Samples after applying filter rule 'Sample_Site == 'duodenal'': 344 (removed 874)
+
+Samples after excluding specific samples listed in LOW_READ_SAMPLES_TSV: 342  (removed  2 )
+
+Applied column filter to keep only: Dataset_ID, Diagnosed_Celiac, Sample_Site, Any_Significant_Factor, Gluten_Free_Diet, Seq_Tech, Will_Develop_Celiac, Sex 
+Number of samples remains: 342 
+
+Samples after keeping only those present in the sequence tables: 118  (removed  224 )
+
+After removing non-Illumina datasets:118 (removed 0)
+
+After removing datasets with imbalanced celiac vs healthy controls:118 (removed 0 samples from 0 datasets)
+
+--- Final Sample Table --- 
+Total samples remaining after all filtering: 118 
+
+Sample counts per dataset and label:
+                 
+                  FALSE TRUE
+  16S_102_Bodkhe     27   16
+  16S_119_Salamon    19   40
+  16S_80_Garcia       8    8
+
+Overall label counts:
+
+FALSE  TRUE 
+   54    64 
+
+837 out of 5559 were assigned to the species level.
+Of which 790 had genera consistent with the input table.phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 5559 taxa and 118 samples ]
+sample_data() Sample Data:       [ 118 samples by 8 sample variables ]
+tax_table()   Taxonomy Table:    [ 5559 taxa by 7 taxonomic ranks ]
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 5469 taxa and 118 samples ]
+sample_data() Sample Data:       [ 118 samples by 8 sample variables ]
+tax_table()   Taxonomy Table:    [ 5469 taxa by 7 taxonomic ranks ]
+
+--- ASV Filtering ---
+Total number of samples: 118 
+Minimum prevalence for ASVs per dataset: 0.1 
+An ASV must be present in at least 10 % of samples in at least one dataset to be kept.
+Total ASVs before filtering: 5469 
+ASVs to keep based on prevalence: 457 
+ASVs to remove: 5012 
+
+                Total.Percentage.Abundance.of.Core.ASVs
+16S_102_Bodkhe                                 90.42772
+16S_80_Garcia                                  90.56577
+16S_119_Salamon                                93.57283
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 457 taxa and 118 samples ]
+sample_data() Sample Data:       [ 118 samples by 8 sample variables ]
+tax_table()   Taxonomy Table:    [ 457 taxa by 7 taxonomic ranks ]
+
+--- Core ASV Dataset Counts ---
+Saved ASV counts per dataset and dataset pairs to: /home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects/duodenum_phyloseq_objects/core_asv_dataset_counts.csv 
+                              set num_asvs_before_filter
+1                  16S_102_Bodkhe                   1079
+2                   16S_80_Garcia                    691
+3                 16S_119_Salamon                    882
+4   16S_102_Bodkhe&&16S_80_Garcia                    183
+5 16S_102_Bodkhe&&16S_119_Salamon                    210
+6  16S_80_Garcia&&16S_119_Salamon                    190
+  num_asvs_after_filter
+1                   294
+2                   287
+3                   222
+4                   148
+5                   155
+6                   155
+
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 457 taxa and 118 samples ]
+sample_data() Sample Data:       [ 118 samples by 8 sample variables ]
+tax_table()   Taxonomy Table:    [ 457 taxa by 7 taxonomic ranks ]
+Samples per label per dataset:
+                 
+                  FALSE TRUE
+  16S_102_Bodkhe     27   16
+  16S_119_Salamon    19   40
+  16S_80_Garcia       8    8
+Overall label counts:
+
+FALSE  TRUE 
+   54    64 

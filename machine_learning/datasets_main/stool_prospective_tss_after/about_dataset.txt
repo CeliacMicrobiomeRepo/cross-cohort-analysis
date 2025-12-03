@@ -1,0 +1,39 @@
+Dataset Construction Summary
+Input Files:
+  - Sample Data: ./machine_learning/all_data/stool_prospective/unfiltered_sample_data.tsv
+  - ASV Table: ./machine_learning/all_data/stool_prospective/unfiltered_asv_table.tsv
+
+Output Files:
+  - Filtered Samples Metadata: ./machine_learning/datasets_main/stool_prospective_tss_after/sample_labels.tsv
+  - ASV Abundance Matrix: ./machine_learning/datasets_main/stool_prospective_tss_after/sample_asv_abundances.tsv
+
+Transformation Options:
+  - Pseudo count: 1e-06
+  - Transformation: tss
+  - Z-score: False
+  - Filtering: after
+
+ASV Filter:
+  - Minimum average abundance across a dataset (in X% of datasets) for a taxonomic unit to be included: 0.0
+  - Minimum proportion of all samples in a dataset (in X% of datasets) for a taxonomic unit to be included: 0.1
+  - ...X proportion of the datasets: 0.0
+
+Summary:
+  - Initial number of samples: 120
+  - Final number of samples: 120
+  - Initial number of ASVs: 2147
+  - Final number of ASVs: 203
+  - ASVs removed: 1944
+
+Sample Label Details:
+Overall label distribution:
+  - True: 60
+  - False: 60
+
+Label distribution by dataset:
+  Dataset 16S_1211_Milletich:
+    - True: 26
+    - False: 26
+  Dataset 16S_68_Girdhar:
+    - True: 34
+    - False: 34

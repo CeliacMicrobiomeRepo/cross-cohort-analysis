@@ -1,0 +1,45 @@
+Dataset Construction Summary
+Input Files:
+  - Sample Data: ./machine_learning/all_data/stool_treated/unfiltered_sample_data.tsv
+  - ASV Table: ./machine_learning/all_data/stool_treated/unfiltered_asv_table.tsv
+
+Output Files:
+  - Filtered Samples Metadata: ./machine_learning/datasets_main/stool_treated_tss_after/sample_labels.tsv
+  - ASV Abundance Matrix: ./machine_learning/datasets_main/stool_treated_tss_after/sample_asv_abundances.tsv
+
+Transformation Options:
+  - Pseudo count: 1e-06
+  - Transformation: tss
+  - Z-score: False
+  - Filtering: after
+
+ASV Filter:
+  - Minimum average abundance across a dataset (in X% of datasets) for a taxonomic unit to be included: 0.0
+  - Minimum proportion of all samples in a dataset (in X% of datasets) for a taxonomic unit to be included: 0.1
+  - ...X proportion of the datasets: 0.0
+
+Summary:
+  - Initial number of samples: 215
+  - Final number of samples: 215
+  - Initial number of ASVs: 4371
+  - Final number of ASVs: 439
+  - ASVs removed: 3932
+
+Sample Label Details:
+Overall label distribution:
+  - True: 122
+  - False: 93
+
+Label distribution by dataset:
+  Dataset 16S_136_Nobel:
+    - False: 40
+    - True: 26
+  Dataset 16S_20_Rawson:
+    - False: 8
+    - True: 7
+  Dataset 16S_49_Turjeman:
+    - False: 30
+    - True: 10
+  Dataset 16S_96_Quagliariello:
+    - True: 79
+    - False: 15

@@ -1,0 +1,11 @@
+"set","num_asvs_before_filter","num_asvs_after_filter"
+"16S_49_Turjeman",1091,403
+"16S_136_Nobel",1691,398
+"16S_96_Quagliariello",1407,392
+"16S_20_Rawson",378,219
+"16S_49_Turjeman&&16S_136_Nobel",565,369
+"16S_49_Turjeman&&16S_96_Quagliariello",610,369
+"16S_49_Turjeman&&16S_20_Rawson",235,206
+"16S_136_Nobel&&16S_96_Quagliariello",607,367
+"16S_136_Nobel&&16S_20_Rawson",246,211
+"16S_96_Quagliariello&&16S_20_Rawson",248,213

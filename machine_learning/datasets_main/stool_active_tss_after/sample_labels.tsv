@@ -1,0 +1,159 @@
+Sample_ID	Dataset_ID	Disease_Status	Sample_Site	Any_Significant_Factor	Gluten_Free_Diet	Seq_Tech	Will_Develop_Celiac	Sex
+ERR11549398	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549399	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549400	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549401	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549402	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549403	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549404	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549405	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549406	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549407	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549410	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549411	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549412	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549413	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549416	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549417	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549418	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549419	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549420	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549423	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549424	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549425	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549426	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549429	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549430	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549431	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549432	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549433	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549436	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549437	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549438	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549439	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549440	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549441	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549442	16S_49_Turjeman	True	stool	False	False	Illumina MiSeq		unknown
+ERR11549443	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549444	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549445	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+ERR11549446	16S_49_Turjeman	False	stool	False	False	Illumina MiSeq		unknown
+SRR5514927	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5514928	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5514932	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514933	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514934	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514935	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514936	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514937	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514939	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514940	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514941	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514942	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514943	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514944	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514945	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514946	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514947	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514948	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514950	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514951	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514952	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514953	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514954	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514955	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514956	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514972	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514973	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514974	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514975	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514976	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514977	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514978	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514979	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514980	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514981	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		male
+SRR5514983	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514984	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514985	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514986	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5514987	16S_102_Bodkhe	False	stool	False	False	Illumina MiSeq		female
+SRR5515006	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515007	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515008	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515009	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515010	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515011	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515012	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515013	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515014	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515016	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515017	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515018	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515019	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515020	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515021	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515022	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		female
+SRR5515023	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515024	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR5515025	16S_102_Bodkhe	True	stool	False	False	Illumina MiSeq		male
+SRR21922134	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922135	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922136	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922137	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922138	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922139	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922140	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922141	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922142	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922143	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922144	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922145	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922146	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922147	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922148	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922149	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922150	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922151	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922152	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922153	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922154	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922155	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922156	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922157	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922158	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922159	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922160	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922161	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922162	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922163	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922164	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922165	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922166	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922167	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922168	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922169	16S_60_Shi	False	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922170	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922171	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922172	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922173	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922174	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922175	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922176	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922177	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922178	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922179	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922180	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922181	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922182	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922183	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922184	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922185	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		male
+SRR21922186	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922187	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922188	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922189	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922190	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922191	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922192	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female
+SRR21922193	16S_60_Shi	True	stool	False	False	Illumina NovaSeq 6000		female

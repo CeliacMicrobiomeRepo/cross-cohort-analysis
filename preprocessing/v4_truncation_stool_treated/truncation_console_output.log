@@ -1,0 +1,149 @@
+           used  (Mb) gc trigger  (Mb)  max used  (Mb)
+Ncells  8300631 443.4   15000905 801.2  11505763 614.5
+Vcells 58547991 446.7  125197779 955.2 102619907 783.0
+Dimensions of whole alignment matrix:
+[1] 32349  1207
+[1] "Start Positions:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    1.0   207.0   207.0   224.8   207.0  1205.0 
+[1] "End Positions:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      3    1101    1101    1099    1101    1207 
+[1] "Frequencies of starting positions:"
+   Position Frequency
+1         1         9
+2       160         1
+3       166         1
+4       173        16
+5       176        15
+6       178         7
+7       179         5
+8       180         5
+9       182         4
+10      184        30
+11      185        14
+12      187         1
+13      189         2
+14      206         2
+15      207     30787
+16      208        15
+17      210         1
+18      211         1
+19      227         2
+20      228         2
+21      229         1
+22      231         2
+23      233         1
+24      235        50
+25      237        18
+26      243        44
+27      244         4
+28      246        29
+29      247        45
+30      254         6
+31      256        54
+32      688         1
+33      689      1164
+34     1103         1
+35     1109         1
+36     1127         1
+37     1153         1
+38     1178         1
+39     1191         1
+40     1193         1
+41     1197         1
+42     1199         1
+43     1205         1
+[1] "Frequencies of ending positions:"
+   Position Frequency
+1         3         3
+2         8         1
+3        10         1
+4        13         1
+5        14         1
+6       111         1
+7       159         1
+8      1056         1
+9      1068         9
+10     1069      1119
+11     1070        18
+12     1071        18
+13     1072         1
+14     1095      1432
+15     1097        10
+16     1100         3
+17     1101     29717
+18     1102         2
+19     1207        10
+Truncating sequences from position 690 to 1067 
+Subsequence clean‑up complete – 4428 unique canonical sequences remain.
+[1] "Truncated sequences:"
+Min length: 245 
+Median length: 247 
+Max length: 251 
+Std length: 0.3895775 
+Applying minimum and maximum length filters:  245  to  255 
+Number of sequences before length filtering: 32329 
+Number of sequences after length filtering: 32329 
+
+
+---
+Starting dataset: 16S_49_Turjeman 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0 %  ( 0 / 1165 )
+Number of ASVs before aggregation of duplicates after truncation: 1165 
+Number of ASVs after aggregation of duplicates after truncation: 1164 
+
+Minimum length of the truncated ASVs: 245 
+Median length of the truncated ASVs: 247 
+Maximum length of the truncated ASVs: 248 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_49_Turjeman/ 
+
+
+---
+Starting dataset: 16S_136_Nobel 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0.0954 %  ( 19 / 19917 )
+Number of ASVs before aggregation of duplicates after truncation: 19898 
+Number of ASVs after aggregation of duplicates after truncation: 3221 
+
+Minimum length of the truncated ASVs: 245 
+Median length of the truncated ASVs: 247 
+Maximum length of the truncated ASVs: 251 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_136_Nobel/ 
+
+
+---
+Starting dataset: 16S_96_Quagliariello 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0.0102 %  ( 1 / 9835 )
+Number of ASVs before aggregation of duplicates after truncation: 9834 
+Number of ASVs after aggregation of duplicates after truncation: 1425 
+
+Minimum length of the truncated ASVs: 245 
+Median length of the truncated ASVs: 247 
+Maximum length of the truncated ASVs: 249 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_96_Quagliariello/ 
+
+
+---
+Starting dataset: 16S_20_Rawson 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0 %  ( 0 / 1432 )
+Number of ASVs before aggregation of duplicates after truncation: 1432 
+Number of ASVs after aggregation of duplicates after truncation: 444 
+
+Minimum length of the truncated ASVs: 246 
+Median length of the truncated ASVs: 247 
+Maximum length of the truncated ASVs: 248 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_20_Rawson/ 
+Done!
+Data frames and plots have been saved to the output directory: /home/haig/Repos/meta-analysis/preprocessing/v4_truncation_stool_treated 

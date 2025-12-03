@@ -1,0 +1,5 @@
+Dataset	Body Site	Stage	# Datasets	# Samples	# Positive Samples	# Negative Samples	KFOLD AUC	LODO AUC	Mean XSET AUC
+stool_prospective_tss_after	Stool	Prospective	2	120	60	60	0.5994	0.6086	0.6151
+stool_active_tss_after	Stool	Active	3	158	60	98	0.7923	0.7589	0.6584
+stool_treated_tss_after	Stool	Treated	4	215	122	93	0.9133	0.7733	0.6174
+duodenum_active_tss_after	Duodenal	Active	3	118	64	54	0.7438	0.6453	0.5561

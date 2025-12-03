@@ -1,0 +1,42 @@
+Dataset Construction Summary
+Input Files:
+  - Sample Data: ./machine_learning/all_data/duodenum_active/unfiltered_sample_data.tsv
+  - ASV Table: ./machine_learning/all_data/duodenum_active/unfiltered_asv_table.tsv
+
+Output Files:
+  - Filtered Samples Metadata: ./machine_learning/datasets_main/duodenum_active_tss_after/sample_labels.tsv
+  - ASV Abundance Matrix: ./machine_learning/datasets_main/duodenum_active_tss_after/sample_asv_abundances.tsv
+
+Transformation Options:
+  - Pseudo count: 1e-06
+  - Transformation: tss
+  - Z-score: False
+  - Filtering: after
+
+ASV Filter:
+  - Minimum average abundance across a dataset (in X% of datasets) for a taxonomic unit to be included: 0.0
+  - Minimum proportion of all samples in a dataset (in X% of datasets) for a taxonomic unit to be included: 0.1
+  - ...X proportion of the datasets: 0.0
+
+Summary:
+  - Initial number of samples: 118
+  - Final number of samples: 118
+  - Initial number of ASVs: 5469
+  - Final number of ASVs: 457
+  - ASVs removed: 5012
+
+Sample Label Details:
+Overall label distribution:
+  - True: 64
+  - False: 54
+
+Label distribution by dataset:
+  Dataset 16S_102_Bodkhe:
+    - False: 27
+    - True: 16
+  Dataset 16S_119_Salamon:
+    - True: 40
+    - False: 19
+  Dataset 16S_80_Garcia:
+    - False: 8
+    - True: 8

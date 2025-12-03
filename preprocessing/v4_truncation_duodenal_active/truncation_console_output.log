@@ -1,0 +1,262 @@
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  8294905 443.0   14993845 800.8 11729567 626.5
+Vcells 56509882 431.2  119448240 911.4 97826037 746.4
+Dimensions of whole alignment matrix:
+[1] 29761  1230
+[1] "Start Positions:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      1     118     467     Inf     490     Inf 
+[1] "End Positions:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   -Inf    1110    1133    -Inf    1134    1230 
+[1] "Frequencies of starting positions:"
+    Position Frequency
+1          1       314
+2         86         1
+3         87         2
+4         91         1
+5         92         1
+6         93         3
+7         95         6
+8         97         3
+9        102         1
+10       117         2
+11       118      9007
+12       119         9
+13       122         1
+14       144         1
+15       145         1
+16       150         2
+17       151        13
+18       152         2
+19       153         8
+20       154         1
+21       161         2
+22       163         4
+23       442         2
+24       453        13
+25       455      1192
+26       457      4226
+27       466         3
+28       467       599
+29       469       943
+30       476         1
+31       477      1285
+32       480       553
+33       481      3136
+34       487        25
+35       488       114
+36       490      2543
+37       493        65
+38       494         6
+39       496         2
+40       500         3
+41       502         2
+42       504         1
+43       505         1
+44       506         2
+45       509         5
+46       512         1
+47       514         2
+48       516        27
+49       519      5110
+50       520         2
+51       521        26
+52       522        12
+53       524        25
+54       525        39
+55       526        38
+56       527         9
+57       528         3
+58       530         8
+59       534         1
+60       539         1
+61       584         1
+62       589         2
+63      1143         1
+64      1159         2
+65      1162         1
+66      1164         1
+67      1166         1
+68      1167         1
+69      1173         2
+70      1174         2
+71      1186         1
+72      1187         2
+73      1190         1
+74      1191         3
+75      1192         6
+76      1193         2
+77      1194         4
+78      1195         3
+79      1196         4
+80      1197         3
+81      1198         4
+82      1200         6
+83      1201         5
+84      1202         4
+85      1204        10
+86      1206         5
+87      1207         9
+88      1209         1
+89      1210        10
+90      1211         7
+91      1212        12
+92      1213         5
+93      1214         9
+94      1215        13
+95      1216        17
+96      1217         5
+97      1218        12
+98      1219        19
+99      1221        14
+100     1222        12
+101     1223        12
+102     1224        21
+103     1225        18
+104     1226        25
+105     1227        21
+106     1229        20
+107     1230        10
+108      Inf         1
+[1] "Frequencies of ending positions:"
+   Position Frequency
+1      -Inf         1
+2         1         8
+3         3        10
+4         4        24
+5         5        16
+6         7         5
+7         9        33
+8        10         8
+9        11         1
+10       12        20
+11       14        16
+12       15        10
+13       18        17
+14       20         3
+15       21        15
+16       22        17
+17       23        10
+18       24         8
+19       25        25
+20       26         6
+21       27         8
+22       28         2
+23       31         6
+24       32         2
+25       33         4
+26       34         4
+27       35         6
+28       36         2
+29       37         1
+30       38         1
+31       39         2
+32       40         2
+33       41         1
+34       42         3
+35       43         3
+36       46         1
+37       47         5
+38       50         1
+39       52         1
+40       53         1
+41       60         1
+42       70         1
+43       75         1
+44       76         1
+45       82         1
+46       85         1
+47     1016         2
+48     1042         2
+49     1053         1
+50     1063         1
+51     1094         8
+52     1095         1
+53     1097         2
+54     1100         4
+55     1103         3
+56     1104         5
+57     1106         4
+58     1107         3
+59     1110      9061
+60     1111         1
+61     1112      5011
+62     1113        10
+63     1117         2
+64     1119         2
+65     1121         2
+66     1123         1
+67     1124         1
+68     1125         2
+69     1126         1
+70     1128         2
+71     1131         3
+72     1132         5
+73     1133      7563
+74     1134       672
+75     1135         1
+76     1137       210
+77     1138        11
+78     1139      5905
+79     1140       109
+80     1141         7
+81     1142       482
+82     1230       346
+Truncating sequences from position 590 to 1015 
+Subsequence clean‑up complete – 5559 unique canonical sequences remain.
+[1] "Truncated sequences:"
+Min length: 187 
+Median length: 213 
+Max length: 251 
+Std length: 0.7256583 
+Applying minimum and maximum length filters:  180  to  252 
+Number of sequences before length filtering: 29100 
+Number of sequences after length filtering: 29100 
+
+
+---
+Starting dataset: 16S_102_Bodkhe 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 3.9598 %  ( 619 / 15632 )
+Number of ASVs before aggregation of duplicates after truncation: 15013 
+Number of ASVs after aggregation of duplicates after truncation: 2913 
+
+Minimum length of the truncated ASVs: 187 
+Median length of the truncated ASVs: 213 
+Maximum length of the truncated ASVs: 215 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_102_Bodkhe/ 
+
+
+---
+Starting dataset: 16S_80_Garcia 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0.0199 %  ( 1 / 5017 )
+Number of ASVs before aggregation of duplicates after truncation: 5016 
+Number of ASVs after aggregation of duplicates after truncation: 2188 
+
+Minimum length of the truncated ASVs: 206 
+Median length of the truncated ASVs: 213 
+Maximum length of the truncated ASVs: 250 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_80_Garcia/ 
+
+
+---
+Starting dataset: 16S_119_Salamon 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0.45 %  ( 41 / 9112 )
+Number of ASVs before aggregation of duplicates after truncation: 9071 
+Number of ASVs after aggregation of duplicates after truncation: 1497 
+
+Minimum length of the truncated ASVs: 209 
+Median length of the truncated ASVs: 213 
+Maximum length of the truncated ASVs: 251 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_119_Salamon/ 
+Done!
+Data frames and plots have been saved to the output directory: /home/haig/Repos/meta-analysis/preprocessing/v4_truncation_duodenal_active 

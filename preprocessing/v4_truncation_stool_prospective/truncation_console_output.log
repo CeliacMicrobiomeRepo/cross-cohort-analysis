@@ -1,0 +1,115 @@
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  8265269 441.5   15411677 823.1 10929941 583.8
+Vcells 29359210 224.0   54216333 413.7 43452372 331.6
+Dimensions of whole alignment matrix:
+[1] 16019   778
+[1] "Start Positions:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1.00   21.00   21.00   95.95  297.00  773.00 
+[1] "End Positions:"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    461     475     553     581     734     778 
+[1] "Frequencies of starting positions:"
+   Position Frequency
+1         1         1
+2        20        85
+3        21     11651
+4        22        20
+5        46         1
+6        48         1
+7        52         4
+8        56         1
+9        59         3
+10      282         2
+11      297       634
+12      298      2528
+13      299         3
+14      300        28
+15      301        63
+16      320       986
+17      339         3
+18      354         3
+19      764         1
+20      773         1
+[1] "Frequencies of ending positions:"
+   Position Frequency
+1       461         5
+2       463         4
+3       464      1526
+4       466       899
+5       468       647
+6       470         6
+7       473         6
+8       474        20
+9       475      1240
+10      476        81
+11      477       108
+12      478        90
+13      479        11
+14      480         7
+15      482         2
+16      518        10
+17      520        66
+18      521        69
+19      522         6
+20      523         4
+21      524       141
+22      526       180
+23      527       167
+24      547        45
+25      549       698
+26      550       624
+27      552       770
+28      553      3683
+29      554       619
+30      555        31
+31      573         1
+32      613         1
+33      734       986
+34      741         1
+35      742         1
+36      762         5
+37      763      3257
+38      778         2
+Truncating sequences from position 321 to 463 
+Subsequence clean‑up complete – 2172 unique canonical sequences remain.
+[1] "Truncated sequences:"
+Min length: 93 
+Median length: 95 
+Max length: 97 
+Std length: 0.3953322 
+Applying minimum and maximum length filters:  90  to  100 
+Number of sequences before length filtering: 16006 
+Number of sequences after length filtering: 16006 
+
+
+---
+Starting dataset: 16S_68_Girdhar 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0 %  ( 0 / 986 )
+Number of ASVs before aggregation of duplicates after truncation: 986 
+Number of ASVs after aggregation of duplicates after truncation: 751 
+
+Minimum length of the truncated ASVs: 94 
+Median length of the truncated ASVs: 95 
+Maximum length of the truncated ASVs: 96 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_68_Girdhar/ 
+
+
+---
+Starting dataset: 16S_1211_Milletich 
+Percentage of ASVs with NULL truncated sequences due to poor alignment: 0.0865 %  ( 13 / 15033 )
+Number of ASVs before aggregation of duplicates after truncation: 15020 
+Number of ASVs after aggregation of duplicates after truncation: 1970 
+
+Minimum length of the truncated ASVs: 93 
+Median length of the truncated ASVs: 95 
+Maximum length of the truncated ASVs: 97 
+
+Assigning taxonomy to truncated sequences...
+Writing outputs for this dataset
+Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_1211_Milletich/ 
+Done!
+Data frames and plots have been saved to the output directory: /home/haig/Repos/meta-analysis/preprocessing/v4_truncation_stool_prospective 
