@@ -22,10 +22,10 @@ EVALUATION_METHOD = "kfold"  # lodo or kfold
 
 # Input datasets to plot
 DATASET_DIR_PATHS_AND_NAMES = [
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_prospective_tss_after/", "Stool Prospective"),
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_active_tss_after/", "Stool Active"),
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_treated_tss_after/", "Stool Treated"),
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_tss_after/", "Duodenum Active"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_prospective_tss_after/", "Stool Prospective"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_active_tss_after/", "Stool Active"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_treated_tss_after/", "Stool Treated"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/duodenum_active_tss_after/", "Duodenum Active"),
 ]
 
 # Which results to plot
@@ -34,7 +34,7 @@ RESULTS_SUBDIR_FILE_NAME = EVALUATION_METHOD + "_results/best_models_results.tsv
 
 
 # Outputs ------------------------------------------
-OUTPUT_DIR_PATH = os.path.expanduser("/home/haig/Repos/meta-analysis/machine_learning/results/main/")
+OUTPUT_DIR_PATH = os.path.expanduser("/home/haig/Repos/cross-cohort-analysis/machine_learning/results/main/")
 
 # Name of plot files to write
 FILE_NAME = "main_comparison_" + EVALUATION_METHOD

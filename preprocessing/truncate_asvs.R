@@ -122,7 +122,7 @@ ABOUT_TXT_STR <- "This truncation is of all V4 datasets included in the meta-ana
 SAVE_PHYLOSEQ_AND_TAXONOMY <- TRUE
 
 # Set the working directory (for mothur)
-WORKING_DIR <- "/home/haig/Repos/meta-analysis/preprocessing"
+WORKING_DIR <- "/home/haig/Repos/cross-cohort-analysis/preprocessing"
 setwd(WORKING_DIR)
 
 # Create the subdirectory

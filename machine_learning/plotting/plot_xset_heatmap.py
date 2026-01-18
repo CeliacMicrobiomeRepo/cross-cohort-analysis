@@ -20,13 +20,13 @@ SHOW_BEST_MODEL = True
 # Only used if SHOW_BEST_MODEL is False
 MODEL_NAME = "xgboost"
 # Output directory for heatmaps
-OUTPUT_DIR_PATH = "/home/haig/Repos/meta-analysis/machine_learning/results/xset_heatmaps/"
+OUTPUT_DIR_PATH = "/home/haig/Repos/cross-cohort-analysis/machine_learning/results/xset_heatmaps/"
 # Dataset directories to plot heatmaps for
 ALL_DATASET_DIR_PATHS = [
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_tss_after",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_active_tss_after",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_prospective_tss_after",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_treated_tss_after",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/duodenum_active_tss_after",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_active_tss_after",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_prospective_tss_after",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_treated_tss_after",
 ]
 
 

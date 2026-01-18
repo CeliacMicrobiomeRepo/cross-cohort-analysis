@@ -28,10 +28,10 @@ RANK_NAMES = ["d", "p", "c", "o", "f", "g", "sp"]
 
 # Inputs ------------------------------------------
 ALL_DATASET_DIR_PATHS = [
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_prospective_tss_after",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_active_tss_after",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_treated_tss_after",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_tss_after"
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_prospective_tss_after",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_active_tss_after",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_treated_tss_after",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/duodenum_active_tss_after"
 ]
 # Subdirectory file names
 RESULTS_SUBDIR_FILE_NAME = "kfold_results/feature_importance_best_models.tsv"
@@ -39,7 +39,7 @@ PERFORMANCE_RESULTS_SUBDIR_FILE_NAME = "kfold_results/best_models_results.tsv"
 
 
 # Outputs ------------------------------------------
-OUTPUT_DIR_PATH = "/home/haig/Repos/meta-analysis/machine_learning/results/feature_importance/"
+OUTPUT_DIR_PATH = "/home/haig/Repos/cross-cohort-analysis/machine_learning/results/feature_importance/"
 
 
 

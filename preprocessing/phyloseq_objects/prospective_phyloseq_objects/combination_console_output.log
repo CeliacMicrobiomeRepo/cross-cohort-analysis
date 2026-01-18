@@ -124,7 +124,7 @@ sample_data() Sample Data:       [ 120 samples by 8 sample variables ]
 tax_table()   Taxonomy Table:    [ 203 taxa by 7 taxonomic ranks ]
 
 --- Core ASV Dataset Counts ---
-Saved ASV counts per dataset and dataset pairs to: /home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects/prospective_phyloseq_objects/core_asv_dataset_counts.csv 
+Saved ASV counts per dataset and dataset pairs to: /home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects/prospective_phyloseq_objects/core_asv_dataset_counts.csv 
                                  set
 1                     16S_68_Girdhar
 2                 16S_1211_Milletich

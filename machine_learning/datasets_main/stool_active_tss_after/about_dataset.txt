@@ -1,7 +1,7 @@
 Dataset Construction Summary
 Input Files:
-  - Sample Data: ./machine_learning/all_data/stool_active/unfiltered_sample_data.tsv
-  - ASV Table: ./machine_learning/all_data/stool_active/unfiltered_asv_table.tsv
+  - Sample Data: ./machine_learning/all_data_trunc/stool_active/unfiltered_sample_data.tsv
+  - ASV Table: ./machine_learning/all_data_trunc/stool_active/unfiltered_asv_table.tsv
 
 Output Files:
   - Filtered Samples Metadata: ./machine_learning/datasets_main/stool_active_tss_after/sample_labels.tsv

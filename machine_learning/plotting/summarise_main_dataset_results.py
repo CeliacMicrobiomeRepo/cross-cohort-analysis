@@ -12,15 +12,15 @@ import pandas as pd
 # Inputs ------------------------------------------
 # List of dataset directories with metadata
 DATASET_DIR_PATHS_AND_NAMES = [
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_prospective_tss_after/", "Stool", "Prospective"),
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_active_tss_after/", "Stool", "Active"),
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_treated_tss_after/", "Stool", "Treated"),
-    ("/home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_tss_after/", "Duodenal", "Active"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_prospective_tss_after/", "Stool", "Prospective"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_active_tss_after/", "Stool", "Active"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_treated_tss_after/", "Stool", "Treated"),
+    ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/duodenum_active_tss_after/", "Duodenal", "Active"),
 ]
 
 # Output ------------------------------------------
 # Path to save the combined TSV file
-OUTPUT_FILE_PATH = "/home/haig/Repos/meta-analysis/machine_learning/results/main_results_summary.tsv"
+OUTPUT_FILE_PATH = "/home/haig/Repos/cross-cohort-analysis/machine_learning/results/main_results_summary.tsv"
 # Make sure the output directory exists
 os.makedirs(os.path.dirname(os.path.expanduser(OUTPUT_FILE_PATH)), exist_ok=True)
 

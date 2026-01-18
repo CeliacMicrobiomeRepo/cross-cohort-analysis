@@ -71,14 +71,34 @@ DATASET_DIRS <- c(
     # "/home/haig/Repos/celiac-repository/16S_datasets/16S_25_Francavilla",
     # "/home/haig/Repos/celiac-repository/16S_datasets/16S_39_Olivares",
     )
-# Each dataset directory should contain the following 2 files:
+# Input ASV mode:
+#   "truncated" -> read from truncation subdir (e.g. v4_truncation_*)
+#   "original"  -> read from dataset root (seqs.fna + asv_abundances_transposed.tsv)
+ASV_INPUT_MODE <- "truncated"   # <--- [!!!] Change per analysis ("truncated" or "original")
+
+# Set the subdirectory name (needed when ASV_INPUT_MODE == "truncated")
 # e.g.
 #   v4_truncation_stool_prospective/*
 #   v4_truncation_stool_active/*
 #   v4_truncation_stool_treated/*
 #   v4_truncation_duodenal_active/*
-SEQS_FNA_FILE_PATH <- "v4_truncation_duodenal_active/seqs.fna"   # <--- [!!!] Change per analysis
-ASV_ABUNDANCES_FILE_PATH <- "v4_truncation_duodenal_active/asv_abundances_transposed.tsv"   # <--- [!!!] Change per analysis
+TRUNCATION_SUBDIR <- "v4_truncation_duodenal_active"   # <--- [!!!] Change per analysis
+
+# Use truncated ASVs (from truncate_asvs.R)
+if (ASV_INPUT_MODE == "truncated") {
+    # ASV FASTA file
+    SEQS_FNA_FILE_PATH <- file.path(TRUNCATION_SUBDIR, "seqs.fna")
+    # ASV abundance table
+    ASV_ABUNDANCES_FILE_PATH <- file.path(TRUNCATION_SUBDIR, "asv_abundances_transposed.tsv")
+
+# Use original untruncated ASVs
+} else if (ASV_INPUT_MODE == "original") {
+    # ASV FASTA file
+    SEQS_FNA_FILE_PATH <- "seqs.fna"
+    # ASV abundance table
+    ASV_ABUNDANCES_FILE_PATH <- "asv_abundances_transposed.tsv"
+
+}
 
 
 # Paths to databases
@@ -88,7 +108,8 @@ SPECIES_ASSIGNMENT_SET <- "/mnt/secondary/16S_databases/sbdi-gtdb-sativa.r10rs22
 
 
 # Output paths
-OUT_DIR <- "/home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects"
+OUT_DIR <- "/home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects_trunc"   # <--- [!!!] Change per analysis
+# e.g.   phyloseq_objects_untrunc      phyloseq_objects_trunc   phyloseq_objects
 ANALYSIS_DIR_NAME <- "duodenum_phyloseq_objects"   # <--- [!!!] Change per analysis
 # e.g:
 #   prospective_phyloseq_objects
@@ -250,7 +271,7 @@ if (length(seqtab_list) == 0) {
 # Load metadata -----------------------------------
 
 # Get the metadata for all samples (rows are samples and columns are metadata)
-all_samples_table <- read.delim(ALL_SAMPLES_TSV, header = TRUE, row.names= 2)
+all_samples_table <- read.delim(ALL_SAMPLES_TSV, header = TRUE, row.names= 1)
 
 # Convert columns with only "True"/"False" strings to logical type
 for (colname in names(all_samples_table)) {

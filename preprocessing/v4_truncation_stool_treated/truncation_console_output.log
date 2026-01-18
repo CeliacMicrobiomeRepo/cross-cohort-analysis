@@ -146,4 +146,4 @@ Assigning taxonomy to truncated sequences...
 Writing outputs for this dataset
 Dataset done: /home/haig/Repos/celiac-repository/16S_datasets/16S_20_Rawson/ 
 Done!
-Data frames and plots have been saved to the output directory: /home/haig/Repos/meta-analysis/preprocessing/v4_truncation_stool_treated 
+Data frames and plots have been saved to the output directory: /home/haig/Repos/cross-cohort-analysis/preprocessing/v4_truncation_stool_treated 

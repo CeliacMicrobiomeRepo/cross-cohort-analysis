@@ -8,19 +8,21 @@
 library(phyloseq)
 
 # Set the working directory
-setwd("/home/haig/Repos/meta-analysis/machine_learning/")
+setwd("/home/haig/Repos/cross-cohort-analysis/machine_learning/")
 
 # Input file
 # [!!!] Change groups each time
+# e.g.   phyloseq_objects_untrunc      phyloseq_objects_trunc
 # e.g.   duodenum_phyloseq_objects   prospective_phyloseq_objects   stool_active_phyloseq_objects   stool_treated_phyloseq_objects
-PHYLOSEQ_OBJECT_PATH <- "/home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects/duodenum_phyloseq_objects/ps0.rds"
+PHYLOSEQ_OBJECT_PATH <- "/home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects_trunc/duodenum_phyloseq_objects/ps0.rds"
 
 # Output files
 # [!!!] Change groups each time
+# e.g.   all_data_untrunc    all_data_trunc
 # e.g.   duodenum_active   stool_prospective   stool_active   stool_treated
-OUTPUT_ABUNDANCES_PATH <- "/home/haig/Repos/meta-analysis/machine_learning/all_data/duodenum_active/unfiltered_asv_table.tsv"
-OUTPUT_METADATA_PATH <- "/home/haig/Repos/meta-analysis/machine_learning/all_data/duodenum_active/unfiltered_sample_data.tsv"
-OUTPUT_TAXONOMIES_PATH <- "/home/haig/Repos/meta-analysis/machine_learning/all_data/duodenum_active/unfiltered_taxonomies.tsv"
+OUTPUT_ABUNDANCES_PATH <- "/home/haig/Repos/cross-cohort-analysis/machine_learning/all_data_trunc/duodenum_active/unfiltered_asv_table.tsv"
+OUTPUT_METADATA_PATH <- "/home/haig/Repos/cross-cohort-analysis/machine_learning/all_data_trunc/duodenum_active/unfiltered_sample_data.tsv"
+OUTPUT_TAXONOMIES_PATH <- "/home/haig/Repos/cross-cohort-analysis/machine_learning/all_data_trunc/duodenum_active/unfiltered_taxonomies.tsv"
 
 # Create output directories if they don't exist
 dir.create(dirname(OUTPUT_ABUNDANCES_PATH), recursive = TRUE)

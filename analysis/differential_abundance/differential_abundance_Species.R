@@ -34,7 +34,7 @@ set.seed(7)
 #   stool_active_phyloseq_objects
 #   stool_treated_phyloseq_objects
 #   duodenum_phyloseq_objects
-ps = readRDS("/home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/ps1.rds")
+ps = readRDS("/home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/ps1.rds")
 
 # Use 1a for 16S or 1b for shotgun due to different species column formatting
 

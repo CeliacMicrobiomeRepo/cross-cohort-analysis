@@ -123,7 +123,7 @@ sample_data() Sample Data:       [ 158 samples by 8 sample variables ]
 tax_table()   Taxonomy Table:    [ 509 taxa by 7 taxonomic ranks ]
 
 --- Core ASV Dataset Counts ---
-Saved ASV counts per dataset and dataset pairs to: /home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/core_asv_dataset_counts.csv 
+Saved ASV counts per dataset and dataset pairs to: /home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/core_asv_dataset_counts.csv 
                               set num_asvs_before_filter
 1                 16S_49_Turjeman                   1083
 2                  16S_102_Bodkhe                   2234

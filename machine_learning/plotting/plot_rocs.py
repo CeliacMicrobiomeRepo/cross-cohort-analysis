@@ -19,7 +19,7 @@ BEST_MODEL = True
 MODEL_NAME = "rf" # <- used only if BEST_MODEL is False
 
 # Read summary AUCs --------------------------------
-SUMMARY_PATH = '/home/haig/Repos/meta-analysis/machine_learning/results/main_results_summary.tsv'
+SUMMARY_PATH = '/home/haig/Repos/cross-cohort-analysis/machine_learning/results/main_results_summary.tsv'
 summary_df = pd.read_csv(SUMMARY_PATH, sep='\t')
 KFOLD_AUC_MAP = dict(zip(summary_df['Dataset'], summary_df['KFOLD AUC']))
 LODO_AUC_MAP = dict(zip(summary_df['Dataset'], summary_df['LODO AUC']))
@@ -31,16 +31,16 @@ for EVALUATION_METHOD in EVALUATION_METHODS:
 
         if BEST_MODEL:
             # Read summary_best_model.tsv to get the model name
-            summary_best_model_path = '/home/haig/Repos/meta-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/summary_best_model.tsv'
+            summary_best_model_path = '/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/summary_best_model.tsv'
             summary_best_model_df = pd.read_csv(summary_best_model_path, sep='\t')
             # Get 2nd column name
             MODEL_NAME = summary_best_model_df.columns[1].lower()
 
-        TSV_FILE = '/home/haig/Repos/meta-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/best_models/roc_' + MODEL_NAME + '_data.tsv'
+        TSV_FILE = '/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/best_models/roc_' + MODEL_NAME + '_data.tsv'
         TITLE = ANALYSIS_GROUP + ' ' + MODEL_NAME.upper() + ' ' + EVALUATION_METHOD.upper() + ' ROC Curve'
         OUT_FILE = TITLE.lower().replace(' ', '_').replace('-', '_') + '.png'
 
-        OUTPUT_DIR = '/home/haig/Repos/meta-analysis/machine_learning/results/roc_plots/'
+        OUTPUT_DIR = '/home/haig/Repos/cross-cohort-analysis/machine_learning/results/roc_plots/'
 
         # Main ------------------------------------------
         # Read the data
@@ -104,14 +104,14 @@ for EVALUATION_METHOD in EVALUATION_METHODS:
     for ANALYSIS_GROUP in ANALYSIS_GROUPS:
         if BEST_MODEL:
             # Read best model per analysis group for this evaluation method
-            summary_best_model_path = '/home/haig/Repos/meta-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/summary_best_model.tsv'
+            summary_best_model_path = '/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/summary_best_model.tsv'
             summary_best_model_df = pd.read_csv(summary_best_model_path, sep='\t')
             model_name_for_group = summary_best_model_df.columns[1].lower()
         else:
             model_name_for_group = MODEL_NAME
 
         # Read ROC data for this analysis group and model
-        tsv_file = '/home/haig/Repos/meta-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/best_models/roc_' + model_name_for_group + '_data.tsv'
+        tsv_file = '/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/' + ANALYSIS_GROUP + '_tss_after/' + EVALUATION_METHOD + '_results/best_models/roc_' + model_name_for_group + '_data.tsv'
         data = pd.read_csv(tsv_file, sep='\t')
         fpr = data['fpr']
         tpr = data['tpr']

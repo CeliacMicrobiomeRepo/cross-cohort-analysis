@@ -33,7 +33,7 @@ This script is designed to be run from the command line inside the dataset direc
 Example:
 ```
 conda activate all_env
-cd /home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_log10_after/
+cd /home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/duodenum_active_log10_after/
 python ../../03_lodo_xset_train.py
 ```
 

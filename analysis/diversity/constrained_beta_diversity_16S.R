@@ -52,7 +52,7 @@ out_var_explained_file_name <- "var_explained.csv"
 #   stool_active_phyloseq_objects
 #   stool_treated_phyloseq_objects
 #   duodenum_phyloseq_objects
-ps <- readRDS("/home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/ps2.rds")
+ps <- readRDS("/home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/ps2.rds")
 
 
 

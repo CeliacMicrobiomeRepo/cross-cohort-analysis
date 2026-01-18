@@ -2,8 +2,8 @@ Training Summary
 Date and Time: 2025-08-26 11:17:15
 
 Input Files:
-  - Feature Matrix: /home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_prospective_tss_after/sample_asv_abundances.tsv
-  - Labels File: /home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_prospective_tss_after/sample_labels.tsv
+  - Feature Matrix: /home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_prospective_tss_after/sample_asv_abundances.tsv
+  - Labels File: /home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_prospective_tss_after/sample_labels.tsv
 
 Training Configuration:
   - Cross-validation Method: Leave-One-Dataset-Out

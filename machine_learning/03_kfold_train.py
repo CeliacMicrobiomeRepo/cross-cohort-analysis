@@ -28,7 +28,7 @@ This script is designed to be run from the command line inside the dataset direc
 Example:
 ```
 conda activate all_env
-cd /home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_log10_after/
+cd /home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/duodenum_active_log10_after/
 python ../../03_kfold_train.py
 ```
 
@@ -65,7 +65,7 @@ DATASET_DIR_PATH = os.getcwd()   # e.g. "./machine_learning/datasets_main/duoden
 # e.g.   'duodenum_active'   'stool_prospective'   'stool_active'   'stool_treated'
 GROUP_NAME = "_".join(DATASET_DIR_PATH.split("/")[-1].split("_")[0:2])
 # TSV file containing metadata for each sample
-TAXONOMIES_TSV_PATH = "../../all_data/" + GROUP_NAME + "/unfiltered_taxonomies.tsv"
+TAXONOMIES_TSV_PATH = "../../all_data_trunc/" + GROUP_NAME + "/unfiltered_taxonomies.tsv"
 # Path to the feature matrix TSV file (input)
 FEATURES_TSV_PATH = os.path.join(DATASET_DIR_PATH, "sample_asv_abundances.tsv")
 # Path to the labels TSV file (input)

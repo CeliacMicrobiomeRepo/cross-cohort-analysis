@@ -24,7 +24,7 @@
 library(phyloseq)
 
 # Path to the directory containing the phyloseq objects
-PHYLOSEQ_DIR_PATH <- "/home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects"
+PHYLOSEQ_DIR_PATH <- "/home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects"
 
 # Get a list of all analysis group directories
 analysis_dirs <- list.dirs(PHYLOSEQ_DIR_PATH, full.names = TRUE, recursive = FALSE)

@@ -17,7 +17,7 @@ import os
 import re
 
 
-ROOT_PHYLOSEQ_OBJECTS_DIR = "/home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects"
+ROOT_PHYLOSEQ_OBJECTS_DIR = "/home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects"
 
 PHYLOSEQ_OBJECT_DIRS = [
     ROOT_PHYLOSEQ_OBJECTS_DIR + "/stool_active_phyloseq_objects",

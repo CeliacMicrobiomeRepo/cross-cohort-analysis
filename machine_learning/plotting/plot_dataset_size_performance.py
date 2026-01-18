@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # File Paths ------------------------------------------
-BASE_DIR = "/home/haig/Repos/meta-analysis/machine_learning"
+BASE_DIR = "/home/haig/Repos/cross-cohort-analysis/machine_learning"
 INPUT_FILE = os.path.join(BASE_DIR, "results", "main_results_summary.tsv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "results", "dataset_sizes")
 

@@ -20,14 +20,14 @@ EVALUATION_METHOD = "lodo"  # lodo or kfold
 
 # Input datasets to plot
 DATASET_DIR_PATHS = [
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_prospective_tss_after/",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_active_tss_after/",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/stool_treated_tss_after/",
-    "/home/haig/Repos/meta-analysis/machine_learning/datasets_main/duodenum_active_tss_after/",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_prospective_tss_after/",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_active_tss_after/",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/stool_treated_tss_after/",
+    "/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_main/duodenum_active_tss_after/",
 ]
 
 # Output directory
-OUTPUT_DIR_PATH = "/home/haig/Repos/meta-analysis/machine_learning/results/model_comparison/"
+OUTPUT_DIR_PATH = "/home/haig/Repos/cross-cohort-analysis/machine_learning/results/model_comparison/"
 
 
 # Main ------------------------------------------

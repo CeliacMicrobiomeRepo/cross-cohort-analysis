@@ -29,7 +29,7 @@ Y_AXIS_MIN = 0.5   # <- Make divisible by 0.05
 
 
 # Outputs ------------------------------------------
-OUTPUT_DIR_PATH = "/home/haig/Repos/meta-analysis/machine_learning/results/transformation_comparison/"
+OUTPUT_DIR_PATH = "/home/haig/Repos/cross-cohort-analysis/machine_learning/results/transformation_comparison/"
 
 # Create a color mapping for transformations
 TRANSFORMATION_COLORS = {
@@ -97,25 +97,25 @@ for ANALYSIS_GROUP_NAME in ANALYSIS_GROUP_NAMES:
 
         # Dataset directory paths and names
         DATASET_DIR_PATHS_AND_NAMES = [
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_after/", "After,CLR"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_before/", "Before,CLR"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_zscore_after/", "After,CLR,Z"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_zscore_before/", "Before,CLR,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_after/", "After,CLR"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_before/", "Before,CLR"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_zscore_after/", "After,CLR,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_clr_zscore_before/", "Before,CLR,Z"),
 
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_after/", "After,TSS"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_before/", "Before,TSS"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_zscore_after/", "After,TSS,Z"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_zscore_before/", "Before,TSS,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_after/", "After,TSS"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_before/", "Before,TSS"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_zscore_after/", "After,TSS,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_tss_zscore_before/", "Before,TSS,Z"),
 
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_after/", "After,Log10-sum"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_before/", "Before,Log10-sum"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_zscore_after/", "After,Log10-sum,Z"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_zscore_before/", "Before,Log10-sum,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_after/", "After,Log10-sum"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_before/", "Before,Log10-sum"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_zscore_after/", "After,Log10-sum,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10-sum_zscore_before/", "Before,Log10-sum,Z"),
 
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_after/", "After,Log10"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_before/", "Before,Log10"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_zscore_after/", "After,Log10,Z"),
-            ("/home/haig/Repos/meta-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_zscore_before/", "Before,Log10,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_after/", "After,Log10"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_before/", "Before,Log10"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_zscore_after/", "After,Log10,Z"),
+            ("/home/haig/Repos/cross-cohort-analysis/machine_learning/datasets_transformation_comparison/" + ANALYSIS_GROUP_NAME + "_log10_zscore_before/", "Before,Log10,Z"),
         ]
         RESULTS_SUBDIR_FILE_NAME = EVAL_METHOD + "_results/best_models_results.tsv"
 
@@ -208,7 +208,7 @@ for ANALYSIS_GROUP_NAME in ANALYSIS_GROUP_NAMES:
 if len(all_tests_results_list) > 0:
     combined_results = pd.concat(all_tests_results_list, ignore_index=True)
     # Re-declare output and styling to ensure availability outside loops
-    OUTPUT_DIR_PATH = "/home/haig/Repos/meta-analysis/machine_learning/results/transformation_comparison/"
+    OUTPUT_DIR_PATH = "/home/haig/Repos/cross-cohort-analysis/machine_learning/results/transformation_comparison/"
     if not os.path.exists(OUTPUT_DIR_PATH):
         os.makedirs(OUTPUT_DIR_PATH)
     TRANSFORMATION_COLORS = {

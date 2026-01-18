@@ -47,7 +47,7 @@ PSEUDOCOUNT <- 1e-6
 #   stool_active_phyloseq_objects
 #   stool_treated_phyloseq_objects
 #   duodenum_phyloseq_objects
-ps <- readRDS("/home/haig/Repos/meta-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/ps1.rds")
+ps <- readRDS("/home/haig/Repos/cross-cohort-analysis/preprocessing/phyloseq_objects/stool_active_phyloseq_objects/ps1.rds")
 
 # Set factor level
 sd <- sample_data(ps)

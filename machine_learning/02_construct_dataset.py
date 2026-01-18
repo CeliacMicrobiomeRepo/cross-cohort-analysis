@@ -45,7 +45,7 @@ PSEUDO_COUNT = 1e-6
 
 # Inputs ------------------------------------------
 # Directory containing input data from 01_phylogseq_to_tsv.R
-INPUT_DATA_DIR_PATH = "./machine_learning/all_data/"
+INPUT_DATA_DIR_PATH = "./machine_learning/all_data_trunc/"
 # TSV file containing metadata for each sample
 SAMPLE_DATA_TSV_PATH = os.path.join(INPUT_DATA_DIR_PATH, GROUP_NAME, "unfiltered_sample_data.tsv")
 # TSV file containing relative abundances of ASVs in samples
